@@ -510,6 +510,6 @@ scontrol update nodename=pukeko-[X] state=idle
 
 # Feedback
 
-Please email all typos and suggestions to [anton.buyskikh@strath.ac.uk](anton.buyskikh@strath.ac.uk), your feedback would be much appreciated.
+Please email all typos and suggestions to [anton.buyskikh@strath.ac.uk](anton.buyskikh@strath.ac.uk) or [tomohiro.hashizume@strath.ac.uk](tomohiro.hashizume@strath.ac.uk),  your feedback would be much appreciated.
 
 Pukeko User Guide maintained by [Anton Buyskikh](https://github.com/anton-buyskikh), [Tomohiro Hashizume](https://github.com/zoome0215), [Tom Bintener](https://github.com/tomb14) and [Jorge Yago Malo](https://github.com/jyagom).
