@@ -419,6 +419,11 @@ alias squeueextrame='squeueextra -u username'
 ```
 will show the formatted list of jobs only for the user name `username`.
 
+Since sinfoextra is removed, you can put 
+```
+alias="sinfo -N -o '%12N %.6D %15P %.11T %.4c %15C %.6m %.10e'"
+```
+in your `.bash_profile`
 ## Canceling Jobs
 
 If a job or a range of jobs need to be cancelled, because e.g. the jobs will take longer than the specified time in 
