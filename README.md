@@ -226,7 +226,7 @@ The commands `top` and `free` show active processes and memory usage on the curr
 
 # Queuing System Slurm
 
-Jobs on the compute nodes `pukeko-[2-11]` must be submitted via the job queueing system [Slurm](https://slurm.schedmd.com/) while logged in `pukeko-fs`. 
+Jobs on the compute nodes `pukeko-[2-11]` must be submitted via the job queueing system [Slurm](https://slurm.schedmd.com/) while logged in `ruru`. 
 
 > **Note:** Slurm settings are defined in `/ect/slurm/`
 
@@ -243,7 +243,7 @@ Below we provide working examples for Pukeko with further comments.
 
 ## Example Job Scripts
 
-Log in `pukeko-fs` and choose the directory with `example1.py` and `example1.m`.
+Log in `ruru` and choose the directory with `example1.py` and `example1.m`.
 
 ##### Python Job Script
 
