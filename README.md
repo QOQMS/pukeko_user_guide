@@ -10,11 +10,7 @@ Pukeko has the following nodes:
     * 20 cores
     * 128 GB RAM
 
-* `pukeko-int` is the interactive compute node
-    * 24 cores
-    * 128 GB RAM
-
-* `pukeko-fs` is the filesystem node with the job queueing system (scheduler) [Slurm](https://slurm.schedmd.com/). 
+* `ruru` is the filesystem node with the job queueing system (scheduler) [Slurm](https://slurm.schedmd.com/). 
     * 16 cores
     * 32 GB RAM
 
@@ -43,10 +39,17 @@ ssh username@pukeko.phys.strath.ac.uk
 To connect to `pukeko-int` or `pukeko-fs` you should then enter: `ssh pukeko-int` or `ssh pukeko-fs` from the logged in session on `pukeko`. 
 
 
-> **Note:** On campus and in the university VPN users can directly connect to `pukeko-fs` using:
+> **Note:** On campus and in the university VPN users can directly connect to `ruru` using:
 ```bash
-ssh username@pukeko-fs.phys.strath.ac.uk
+ssh username@ruru.phys.strath.ac.uk
 ```
+
+or 
+
+```bash
+ssh ruru-s
+```
+from `pukeko`.
 
 > **Note:** In order to display programs graphically supply `-X` to the ssh command:
 ```bash
