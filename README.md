@@ -36,20 +36,12 @@ To connect to `pukeko` use the following command:
 ssh username@pukeko.phys.strath.ac.uk
 ```
 
-To connect to `pukeko-int` or `pukeko-fs` you should then enter: `ssh pukeko-int` or `ssh pukeko-fs` from the logged in session on `pukeko`. 
-
+To connect to `ruru` you should then enter: `ssh ruru-s` from the logged in session on `pukeko`. 
 
 > **Note:** On campus and in the university VPN users can directly connect to `ruru` using:
 ```bash
 ssh username@ruru.phys.strath.ac.uk
 ```
-
-or 
-
-```bash
-ssh ruru-s
-```
-from `pukeko`.
 
 > **Note:** In order to display programs graphically supply `-X` to the ssh command:
 ```bash
