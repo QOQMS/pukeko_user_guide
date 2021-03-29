@@ -10,9 +10,9 @@ Pukeko has the following nodes:
     * 20 cores
     * 128 GB RAM
 
-* `ruru` is the filesystem node with the job queueing system (scheduler) [Slurm](https://slurm.schedmd.com/). 
-    * 16 cores
-    * 32 GB RAM
+* `ruru` is the node with the job queueing system (scheduler) [Slurm](https://slurm.schedmd.com/). 
+    * 2 cores
+    * 8 GB RAM
 
 *  `pukeko-[2-11]` are the compute nodes of the queueing system
     * `pukeko-[2,3,5,6]`
