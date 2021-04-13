@@ -120,6 +120,11 @@ Then load the appropriate module:
 module purge
 module load python/miniconda3
 ```
+and activate the environment `my-env` (replace it with a suitable name)
+
+```
+conda activate 
+```
 
 > **Note:** In order to locate Python run:
 ```bash
@@ -259,6 +264,8 @@ Create a batch file `job_python.batch`:
 
 module purge
 module load python/miniconda3
+
+conda activate my-env
 
 export OMP_NUM_THREADS=1
 export MKL_NUM_THREADS=1
