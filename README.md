@@ -25,7 +25,7 @@ Pukeko has the following nodes:
         * 24 cores per node
         * 128 GB RAM per node
 
-> **Note:** Full-scale calculations are not permitted on `pukeko-fs`, it's used only for Slurm.
+> **Note:** Full-scale calculations are not permitted on `ruru`, it's used only for Slurm.
 
 # Accessing Pukeko
 
