@@ -251,7 +251,7 @@ Create a batch file `job_python.batch`:
 
 ```bash
 #!/bin/bash
-#SBATCH --export=ALL
+#SBATCH --export=NONE
 #SBATCH --partition=qoqms_intel
 #SBATCH --ntasks=1
 #SBATCH --time=00:01:00
@@ -280,6 +280,7 @@ To submit the job run:
 sbatch job_python.batch
 ```
 
+If it doesn't work, try `source activate my-env` instead of `conda activate my-env`.
 ##### Matlab Job Script
 
 Create a batch file `job_matlab.batch`:
